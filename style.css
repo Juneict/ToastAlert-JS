@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(43, 42, 42)
+}
+.container{
+    margin-top:200px;
+    margin-left: 300px;
+}
+.parent{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+.ToastAlert{
+    background-color: rgb(37, 175, 129);
+    padding: 10px;
+    position: relative;
+    transition: bottom 0.8s ease-in-out;
+}
